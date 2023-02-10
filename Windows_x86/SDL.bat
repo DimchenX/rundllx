@@ -1,0 +1,1 @@
+start rundllx -f sdl SDL_Init 65535 R Di RL sdl SDL_SetVideoMode 0 32 480 640 R C32 Di RL sdl SDL_RWFromFile Prb Phello.bmp R Di RL sdl SDL_LoadBMP_RW 1 A R C36 Di RL sdl SDL_UpperBlit 0 A32 0 A36 R Di RL sdl SDL_Flip A32 R Di RL sdl SDL_Delay 1000 R Di

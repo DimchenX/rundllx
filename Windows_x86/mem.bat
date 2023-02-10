@@ -1,0 +1,3 @@
+set /a MEMTEST=1024*1024*1024
+@rundllx kernel32 LocalAlloc %MEMTEST% 0 R Di L$8B$4C$24$04$8B$7C$24$08$C1$E9$02$89$CB$31$C0$48$F3$AB$89$D8$C3 W32 A %MEMTEST% R32 Di RL kernel32 Sleep 0 R
+@pause
